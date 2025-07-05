@@ -1,1 +1,3 @@
-console.log('Hello, World from app.js!');
+const { emailTemplate } = require('./js-foundations/01-template.js');
+
+console.log(emailTemplate);
