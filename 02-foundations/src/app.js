@@ -32,3 +32,9 @@ const person = makePerson({
   birthday: '1993-01-09',
 });
 console.log(person);
+
+console.log('06-promises');
+const getPokemonById = require('./js-foundations/06-promises');
+getPokemonById(1, (pokemonName) => {
+  console.log(pokemonName);
+});
